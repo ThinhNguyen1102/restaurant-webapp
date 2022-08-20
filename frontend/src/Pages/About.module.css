@@ -1,0 +1,16 @@
+
+
+.feature-item {
+  list-style: disc;
+  font-size: 16px;
+}
+
+.feature-item ul,
+.feature-list {
+  padding-left: 20px;
+}
+
+.wrapper {
+  padding-left: 5%;
+  width: 100%;
+}

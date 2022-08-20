@@ -1,0 +1,27 @@
+
+.button {
+  background-color: #E6D5B8;
+  border-radius: 0.5rem;
+  border: none;
+
+  padding: 0.4rem 1rem;
+  color: #2f2d28;
+  font-weight: 500;
+
+  transition: all 0.25s linear;
+}
+
+.button:hover {
+  background-color: #eedfc4;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #E6D5B8;
+  cursor: pointer;
+}
+
+.is-disable {
+  background-color: #86837d;
+  pointer-events: none;
+}

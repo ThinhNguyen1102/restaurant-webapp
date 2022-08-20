@@ -1,0 +1,87 @@
+
+.form-wrapper {
+  width: 60%;
+  margin: 0 auto;
+
+  margin-top: 15px;
+}
+
+.form-control {
+  height: 100%;
+  width: 100%;
+  padding: 40px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.form-control h2 {
+  color: rgb(28, 26, 24);
+}
+
+.form-input {
+  width: 70%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-input textarea,
+.form-input input {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 2px 10px;
+
+  background-color: rgb(247, 240, 232);
+}
+
+.form-input input {
+  background-color: rgb(247, 240, 232);
+}
+
+.form-input textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form-input textarea:focus,
+.form-input input:focus {
+  border: 2px solid #F0A500;
+}
+
+.form-input label {
+  font-weight: bold;
+}
+
+.btn-box {
+  margin-top: 20px;
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+  .form-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .form-input {
+    width: 100%;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .form-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .form-input {
+    width: 80%;
+  }
+}

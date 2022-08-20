@@ -1,0 +1,14 @@
+.card {
+  background-color: rgba(243, 238, 230, 0.6);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.25);
+}
+
+.wrapper-100vh {
+  height: calc(100% - 4rem - 4px);
+}
+
+.padding-sm {
+  padding: 0.5rem;
+}
